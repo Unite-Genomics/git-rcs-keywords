@@ -5,9 +5,11 @@
 #
 # Copyright (c) 2009-2011 Turon Technologies, Inc.  All rights reserved.
 
-s/\$Id[^\$]*\$/\$Id\$/; 
-s/\$Date[^\$]*\$/\$Date\$/;
-s/\$Author[^\$]*\$/\$Author\$/; 
-s/\$Source[^\$]*\$/\$Source\$/; 
-s/\$File[^\$]*\$/\$File\$/; 
-s/\$Revision[^\$]*\$/\$Revision\$/;
+s/\@\@User.*?\@\@/\@\@User\@\@/; 
+s/\@\@Date.*?\@\@/\@\@Date\@\@/; 
+s/\@\@Driver.*?\@\@/\@\@Driver\@\@/;
+s/\@\@Version.*?\@\@/\@\@Version\@\@/;
+s/\@\@Module.*?\@\@/\@\@Module\@\@/;
+s/\@\@Revision.*?\@\@/\@\@Revision\@\@/;
+s/\@\@Source.*?\@\@/\@\@Source\@\@/; 
+s/\@\@Line.*?\@\@/\@\@Line\@\@/;
